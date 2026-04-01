@@ -1,1 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #1a0000;
+  overflow: hidden;
+}
 
+/* Fundo com cruzes brilhantes */
+.background::before {
+  content: "✝ ✝ ✝ ✝ ✝ ✝ ✝";
+  position: absolute;
+  color: rgba(255, 80, 50, 0.2);
+  font-size: 40px;
+  animation: brilho 3s infinite alternate;
+}
+
+@keyframes brilho {
+  from { opacity: 0.2; }
+  to { opacity: 0.6; }
+}
+
+.login-container {
+  background: #2a0000;
+  border: 1px solid #b87333;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 350px;
+  margin: 100px auto;
+  text-align: center;
+  color: white;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #b87333;
+  border: none;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Animação de erro */
+.shake {
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
