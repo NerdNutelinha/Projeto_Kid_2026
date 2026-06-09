@@ -1,1 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+    background:#0a0a0a;
+    color:#fff;
+    font-family:'Playfair Display', serif;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    border-bottom:1px solid #b8943f;
+}
+
+header h1{
+    font-family:'Cinzel', serif;
+    color:#d4af37;
+    letter-spacing:3px;
+}
+
+header p{
+    margin-top:10px;
+    color:#ccc;
+}
+
+.hero{
+    height:60vh;
+    background:url("https://images.unsplash.com/photo-1621605815971-fbc98d665033")
+    center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.7);
+    padding:40px;
+    border:2px solid #d4af37;
+}
+
+.overlay h2{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.info{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:60px 20px;
+}
+
+.card{
+    background:#121212;
+    border:1px solid #d4af37;
+    padding:25px;
+    width:300px;
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.feriado{
+    color:#ffcc66;
+    margin-top:10px;
+}
+
+.barbeiros{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.barbeiros h2{
+    color:#d4af37;
+    margin-bottom:40px;
+}
+
+.cards-barbeiros{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.barbeiro{
+    width:250px;
+    background:#111;
+    border:1px solid #d4af37;
+    padding:25px;
+    transition:0.3s;
+}
+
+.barbeiro:hover{
+    transform:translateY(-10px);
+}
+
+.contato{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contato h2{
+    color:#d4af37;
+    margin-bottom:30px;
+}
+
+.telefones{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.telefones a{
+    color:white;
+    text-decoration:none;
+    border:1px solid #d4af37;
+    padding:12px;
+    max-width:350px;
+    margin:auto;
+}
+
+.telefones a:hover{
+    background:#d4af37;
+    color:black;
+}
+
+.email{
+    margin-top:30px;
+}
+
+.email a{
+    color:#d4af37;
+}
+
+.ordem{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.ordem h2{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #d4af37;
+    color:#999;
+}
