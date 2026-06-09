@@ -1,127 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barbearia GIFS</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Barber - Barbearia Premium</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>BARBEARIA GIFS</h1>
-    <p>Estilo clássico e Moderno • Atendimento por ordem de chegada</p>
-</header>
+    <a href="https://wa.me/5531999999999?text=Olá!%20Gostaria de%20agendar%20um%20horário." class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
 
-<section class="hero">
-    <div class="overlay">
-        <h2>Tradição e Elegância</h2>
-        <p>Barbearia tradicional com atendimento de qualidade.</p>
-    </div>
-</section>
-
-<section class="info">
-
-    <div class="card">
-        <h3>📍 Endereço</h3>
-        <p>
-            Ribeirão das Neves - MG<br>
-            Rua Principal<br>
-            Bairro Santa Paula
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>🕒 Horários</h3>
-
-        <p>
-            Segunda a Sexta<br>
-            09h às 20h
-        </p>
-
-        <p>
-            Sábado<br>
-            08h às 20h
-        </p>
-
-        <p class="feriado">
-            Feriados: consulte antes por mensagem.
-        </p>
-    </div>
-
-</section>
-
-<section class="barbeiros">
-
-    <h2>Nossos Barbeiros</h2>
-
-    <div class="cards-barbeiros">
-
-        <div class="barbeiro">
-            <h3>Guilherme</h3>
-            <p>Barbeiro Profissional</p>
+    <header>
+        <div class="header-content">
+            <h1>VINTAGE BARBER</h1>
+            <p class="typewriter">Corte clássico, estilo atemporal.</p>
         </div>
+    </header>
 
-        <div class="barbeiro">
-            <h3>Igor</h3>
-            <p>Barbeiro Profissional</p>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section class="banner">
+        <div class="banner-content scroll-anim">
+            <h2>Desde 1900 • Tradição & Modernidade</h2>
+            <p>Inspirado nas clássicas barbearias americanas. Um ambiente feito para o homem que preza pela excelência e pelo visual impecável.</p>
         </div>
+    </section>
 
-        <div class="barbeiro">
-            <h3>Diego</h3>
-            <p>Barbeiro Profissional</p>
-        </div>
+    <main>
+        <section id="sobre" class="container scroll-anim">
+            <h2>Nossa História</h2>
+            <p>Combinamos o visual rústico e tradicional do século passado com as técnicas de corte mais modernas do mercado. Aqui, cada detalhe é planejado para oferecer uma experiência premium, desde a navalha quente até o acabamento perfeito.</p>
+        </section>
 
-    </div>
+        <section id="galeria" class="container scroll-anim">
+            <h2>Galeria de Cortes</h2>
+            <p style="margin-bottom: 20px;">Confira alguns dos nossos trabalhos e estilos de cabelo e barba mais pedidos:</p>
+            <div class="galeria-grid">
+                <div class="galeria-card">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=500" alt="Corte Degradê">
+                    <div class="galeria-info"><h4>Corte Degradê / Fade</h4></div>
+                </div>
+                <div class="galeria-card">
+                    <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=500" alt="Barba Alinhada">
+                    <div class="galeria-info"><h4>Barba & Toalha Quente</h4></div>
+                </div>
+                <div class="galeria-card">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=500" alt="Estilo Clássico">
+                    <div class="galeria-info"><h4>Social Clássico Anos 50</h4></div>
+                </div>
+            </div>
+        </section>
 
-</section>
+        <section id="servicos" class="container scroll-anim">
+            <h2>Serviços & Valores</h2>
+            <p>Tabela de valores sob consulta. Entre em contato para conferir nossos combos de Cabelo, Barba e Sobrancelha com atendimento exclusivo.</p>
+            <button class="btn-gold" onclick="document.querySelector('.whatsapp-float').click()">Consultar Preços</button>
+        </section>
 
-<section class="contato">
+        <section id="contato" class="container scroll-anim">
+            <h2>Agendamento & Contato</h2>
+            <div class="contact-box">
+                <p><strong>📍 Localização:</strong> Ribeirão das Neves - Minas Gerais</p>
+                <p><strong>🕒 Atendimento:</strong> Terça a Sábado: 09h às 20h</p>
+                <p style="margin-top: 15px; color: #d4af37;">Clique no botão flutuante para agendar direto pelo WhatsApp!</p>
+            </div>
+        </section>
+    </main>
 
-    <h2>Contato</h2>
+    <footer>
+        <p>&copy; 2026 Vintage Barber Shop • Todos os direitos reservados</p>
+        <p style="font-size: 0.8rem; color: #555; margin-top: 5px;">Desenvolvido por Geovany Alan</p>
+    </footer>
 
-    <div class="telefones">
-
-        <a href="https://wa.me/5531988792259" target="_blank">
-            Guilherme - (31) 98879-2259
-        </a>
-
-        <a href="https://wa.me/5531987849749" target="_blank">
-            Igor - (31) 98784-9749
-        </a>
-
-        <a href="tel:3131618119">
-            Diego - (31) 3161-8119
-        </a>
-
-    </div>
-
-    <div class="gmail">
-        <p>Gmail:</p>
-
-        <a href="barbeariagifs@gmail.com">
-            barbeariagifs@gmail.com
-        </a>
-    </div>
-
-</section>
-
-<section class="ordem">
-    <h2>Atendimento</h2>
-    <p>
-        Trabalhamos exclusivamente por ordem de chegada.
-    </p>
-</section>
-
-<footer>
-    <p>© 2026 Barbearia Gifs</p>
-</footer>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
